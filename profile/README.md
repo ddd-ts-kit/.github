@@ -36,8 +36,8 @@ Everything lives in one repository, released under one version:
 ## How it is built
 
 - Every pull request passes the whole pipeline again in a merge queue before it reaches `main`.
-- Every release is published from CI by npm trusted publishing, with provenance, a signed
-  attestation and a bill of materials for each package
+- Every release is published from CI by npm trusted publishing, with provenance and, from version
+  0.114.0, a signed attestation and a bill of materials for each package
   ([verifying a release](https://github.com/ddd-ts-kit/ddd-ts-kit/blob/main/SECURITY.md)).
 - The documentation is written in English and in French.
 
